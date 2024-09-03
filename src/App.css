@@ -4,13 +4,24 @@
     background-image: url(./assets/profile_pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     overflow: hidden;
+}
+
+#bg-main nav {
+    padding-top: 10vh;
+    width: fit-content;
+    margin-right: auto;
 }
 
 #bg-main h1 {
     color: rgb(255, 255, 255);
-    position: absolute;
-    right: 7vw;
-    top: 10vh;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 7px;
+    font-size: 45px;
+}
+
+#bg-main p {
+    margin-top: 40px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
 }
