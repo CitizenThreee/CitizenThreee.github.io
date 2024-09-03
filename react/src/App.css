@@ -1,0 +1,16 @@
+#bg-main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/profile_pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+#bg-main h1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 7vw;
+    top: 10vh;
+}
